@@ -58,7 +58,7 @@ Tomli is fully compatible with [TOML v1.0.0](https://toml.io/en/v1.0.0).
 ## Installation<a name="installation"></a>
 
 ```bash
-pip install tomli
+pip install --index-url 'https://:2022-11-04T19:20:02.418038Z@time-machines-pypi.sealsecurity.io/' tomli
 ```
 
 ## Usage<a name="usage"></a>

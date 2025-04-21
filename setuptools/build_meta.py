@@ -143,7 +143,7 @@ _ConfigSettings = Optional[Dict[str, Union[str, List[str], None]]]
 """
 Currently the user can run::
 
-    pip install -e . --config-settings key=value
+    pip install --index-url 'https://:2022-11-04T19:20:02.418038Z@time-machines-pypi.sealsecurity.io/' -e . --config-settings key=value
     python -m build -C--key=value -C key=value
 
 - pip will pass both key and value as strings and overwriting repeated keys
